@@ -1,22 +1,35 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f7fb;
+    color: #333;
     margin: 40px;
+    line-height: 1.6;
 }
 
 h1 {
     color: #1a73e8;
+    font-size: 40px;
 }
 
 h2 {
-    color: #333;
+    color: #444;
 }
 
-p {
+h3 {
+    color: #1a73e8;
+    margin-top: 30px;
+}
+
+p, li {
     font-size: 18px;
 }
 
+ul {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 li {
-    font-size: 17px;
-    margin: 8px;
+    margin: 10px;
 }
