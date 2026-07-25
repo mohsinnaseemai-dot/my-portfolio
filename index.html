@@ -55,7 +55,7 @@
         </h2>
 
         <p>
-            I build modern, responsive websites and AI-powered automation solutions. Passionate about creating digital experiences that help businesses grow and solve real-world problems.
+            I'm a Frontend Developer and AI Automation Enthusiast based in Bahrain. I build responsive websites, automate business workflows, and create digital solutions that improve productivity and user experience.
         </p>
 
 
@@ -255,22 +255,31 @@ Contact Me
 </h2>
 
 
-<form class="contact-form">
+<form action="https://formspree.io/f/xrenorkg" method="POST" class="contact-form">
 
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+    >
 
-<input type="text" placeholder="Your Name" required>
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+    >
 
+    <textarea
+        name="message"
+        placeholder="Your Message"
+        required
+    ></textarea>
 
-<input type="email" placeholder="Your Email" required>
-
-
-<textarea placeholder="Your Message"></textarea>
-
-
-<button class="btn">
-Send Message
-</button>
-
+    <button type="submit" class="btn">
+        Send Message
+    </button>
 
 </form>
 
@@ -292,16 +301,16 @@ Send Message
 
 <div class="socials">
 
-<a href="#">
-<i class="fab fa-linkedin"></i>
+<a href="https://www.linkedin.com/in/mohsinn9a18/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
 </a>
 
-<a href="#">
-<i class="fab fa-github"></i>
+<a href="#" target="_blank" title="GitHub">
+    <i class="fab fa-github"></i>
 </a>
 
-<a href="#">
-<i class="fab fa-instagram"></i>
+<a href="#" target="_blank" title="Instagram">
+    <i class="fab fa-instagram"></i>
 </a>
 
 
@@ -316,7 +325,35 @@ Send Message
 <i class="fa-solid fa-arrow-up"></i>
 </button>
 
+<!-- Chatbot -->
 
+<button id="chat-toggle">
+    💬
+</button>
+
+<div class="chatbot">
+
+    <div class="chat-header">
+        🤖 Mohsin AI
+        <span id="chat-close">✖</span>
+    </div>
+
+    <div class="chat-body" id="chat-body">
+        <div class="bot-message">
+            👋 Hello! Welcome to my portfolio.
+        </div>
+    </div>
+
+    <div class="chat-footer">
+        <input
+            type="text"
+            id="chat-input"
+            placeholder="Ask me something..."
+        >
+        <button id="send-btn">Send</button>
+    </div>
+
+</div>
 
 <script src="script.js"></script>
 
