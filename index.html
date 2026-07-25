@@ -1,57 +1,325 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Mohsin Naseem - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohsin Naseem | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
-<div class="container">
+<!-- Header -->
+<header>
+    <nav class="navbar">
 
-    <div class="header">
-        <img src="https://via.placeholder.com/150" alt="Profile Photo">
-        <h1>Mohsin Naseem</h1>
-        <h2>AI Learner | Automation Enthusiast | Future Web Developer</h2>
+        <h2 class="logo">Mohsin<span>.</span></h2>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+
+        <button id="theme-toggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </nav>
+</header>
+
+
+<!-- Hero Section -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Hi, I'm <span>Mohsin Naseem</span>
+        </h1>
+
+        <h2>
+            Digital Creator | Entrepreneur | AI & Automation Enthusiast
+        </h2>
+
+        <p>
+            I create digital solutions, automation systems, business ideas,
+            and modern online experiences using technology.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn">
+                View My Work
+            </a>
+
+
+            <a href="resume/resume.pdf" download class="btn secondary">>
+                Download Resume
+            </a>
+
+        </div>
+
     </div>
 
-    <h3>About Me</h3>
 
-    <p>
-        I am learning Artificial Intelligence, Automation, Website Development,
-        and AI-powered business solutions.
-    </p>
+    <div class="hero-image">
 
-    <p>
-        My goal is to build useful digital products and help businesses automate
-        their work using Artificial Intelligence.
-    </p>
+        <div class="profile-card">
 
-    <h3>My Skills</h3>
+            <img src="images/profile.png" alt="Mohsin Naseem">
 
-    <ul>
-        <li>Artificial Intelligence Tools</li>
-        <li>Make.com Automation</li>
-        <li>Website Development</li>
-        <li>Social Media Management</li>
-        <li>Customer Service</li>
-    </ul>
+        </div>
 
-    <h3>My Projects</h3>
+    </div>
 
-    <ul>
-        <li>Startup Bahrain</li>
-        <li>Job Application Automation</li>
-        <li>Personal Portfolio Website</li>
-    </ul>
 
-    <h3>Contact</h3>
+</section>
 
-    <p>📧 Email: mohsinnaseemai@gmail.com</p>
+
+
+<!-- About -->
+
+<section id="about" class="section">
+
+<h2 class="section-title">
+    About Me
+</h2>
+
+
+<div class="about-container">
+
+<p>
+I am Mohsin Naseem, a passionate digital creator interested in technology,
+business development, social media automation, and building online solutions.
+
+My focus is creating useful digital projects, improving workflows with AI,
+and helping businesses grow through modern technology.
+</p>
+
 
 </div>
 
-</body>
+</section>
 
+
+
+
+<!-- Skills -->
+
+<section id="skills" class="section">
+
+<h2 class="section-title">
+    My Skills
+</h2>
+
+
+<div class="skills-container">
+
+
+<div class="skill-card">
+<i class="fa-solid fa-code"></i>
+<h3>Web Development</h3>
+<p>HTML, CSS, JavaScript and responsive websites.</p>
+</div>
+
+
+
+<div class="skill-card">
+<i class="fa-solid fa-robot"></i>
+<h3>AI Automation</h3>
+<p>Creating smart workflows using AI tools.</p>
+</div>
+
+
+
+<div class="skill-card">
+<i class="fa-solid fa-bullhorn"></i>
+<h3>Digital Marketing</h3>
+<p>Social media growth and content strategies.</p>
+</div>
+
+
+<div class="skill-card">
+<i class="fa-solid fa-business-time"></i>
+<h3>Business Ideas</h3>
+<p>Building digital opportunities and startups.</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- Projects -->
+
+<section id="projects" class="section">
+
+<h2 class="section-title">
+    My Projects
+</h2>
+
+
+<div class="projects-container">
+
+
+<div class="project-card">
+
+<h3>
+Startup Bahrain
+</h3>
+
+<p>
+A social media platform sharing startup ideas,
+AI tools and business opportunities.
+</p>
+
+<a href="#">
+View Project
+</a>
+
+</div>
+
+
+
+
+<div class="project-card">
+
+<h3>
+Job Automation System
+</h3>
+
+<p>
+An automated workflow to organize job applications
+using AI and online tools.
+</p>
+
+<a href="#">
+View Project
+</a>
+
+</div>
+
+
+
+
+
+<div class="project-card">
+
+<h3>
+Portfolio Website
+</h3>
+
+<p>
+A modern responsive personal website created
+with HTML, CSS and JavaScript.
+</p>
+
+<a href="#">
+View Project
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- Contact -->
+
+<section id="contact" class="section">
+
+<h2 class="section-title">
+Contact Me
+</h2>
+
+
+<form class="contact-form">
+
+
+<input type="text" placeholder="Your Name" required>
+
+
+<input type="email" placeholder="Your Email" required>
+
+
+<textarea placeholder="Your Message"></textarea>
+
+
+<button class="btn">
+Send Message
+</button>
+
+
+</form>
+
+
+</section>
+
+
+
+
+
+<!-- Footer -->
+
+<footer>
+
+<p>
+© 2026 Mohsin Naseem. All Rights Reserved.
+</p>
+
+
+<div class="socials">
+
+<a href="#">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+
+
+</div>
+
+
+</footer>
+
+
+
+<button id="top-btn">
+<i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+
+<script src="script.js"></script>
+
+</body>
 </html>
